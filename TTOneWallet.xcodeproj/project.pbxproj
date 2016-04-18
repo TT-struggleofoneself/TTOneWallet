@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB53D3721CC4D36B00F2C341 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D3711CC4D36B00F2C341 /* main.m */; };
+		EB53D3751CC4D36B00F2C341 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D3741CC4D36B00F2C341 /* AppDelegate.m */; };
+		EB53D3781CC4D36B00F2C341 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D3771CC4D36B00F2C341 /* ViewController.m */; };
+		EB53D37B1CC4D36B00F2C341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB53D3791CC4D36B00F2C341 /* Main.storyboard */; };
+		EB53D37D1CC4D36B00F2C341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB53D37C1CC4D36B00F2C341 /* Assets.xcassets */; };
+		EB53D3801CC4D36B00F2C341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB53D37E1CC4D36B00F2C341 /* LaunchScreen.storyboard */; };
+		EB53D38B1CC4D36B00F2C341 /* TTOneWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D38A1CC4D36B00F2C341 /* TTOneWalletTests.m */; };
+		EB53D3961CC4D36B00F2C341 /* TTOneWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB53D3951CC4D36B00F2C341 /* TTOneWalletUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB53D3871CC4D36B00F2C341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB53D3651CC4D36B00F2C341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB53D36C1CC4D36B00F2C341;
+			remoteInfo = TTOneWallet;
+		};
+		EB53D3921CC4D36B00F2C341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB53D3651CC4D36B00F2C341 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB53D36C1CC4D36B00F2C341;
+			remoteInfo = TTOneWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB53D36D1CC4D36B00F2C341 /* TTOneWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTOneWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB53D3711CC4D36B00F2C341 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB53D3731CC4D36B00F2C341 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB53D3741CC4D36B00F2C341 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB53D3761CC4D36B00F2C341 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB53D3771CC4D36B00F2C341 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB53D37A1CC4D36B00F2C341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB53D37C1CC4D36B00F2C341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB53D37F1CC4D36B00F2C341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB53D3811CC4D36B00F2C341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB53D3861CC4D36B00F2C341 /* TTOneWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTOneWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB53D38A1CC4D36B00F2C341 /* TTOneWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTOneWalletTests.m; sourceTree = "<group>"; };
+		EB53D38C1CC4D36B00F2C341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB53D3911CC4D36B00F2C341 /* TTOneWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTOneWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB53D3951CC4D36B00F2C341 /* TTOneWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTOneWalletUITests.m; sourceTree = "<group>"; };
+		EB53D3971CC4D36B00F2C341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB53D36A1CC4D36B00F2C341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB53D3831CC4D36B00F2C341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB53D38E1CC4D36B00F2C341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB53D3641CC4D36B00F2C341 = {
+			isa = PBXGroup;
+			children = (
+				EB53D36F1CC4D36B00F2C341 /* TTOneWallet */,
+				EB53D3891CC4D36B00F2C341 /* TTOneWalletTests */,
+				EB53D3941CC4D36B00F2C341 /* TTOneWalletUITests */,
+				EB53D36E1CC4D36B00F2C341 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB53D36E1CC4D36B00F2C341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB53D36D1CC4D36B00F2C341 /* TTOneWallet.app */,
+				EB53D3861CC4D36B00F2C341 /* TTOneWalletTests.xctest */,
+				EB53D3911CC4D36B00F2C341 /* TTOneWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB53D36F1CC4D36B00F2C341 /* TTOneWallet */ = {
+			isa = PBXGroup;
+			children = (
+				EB53D3731CC4D36B00F2C341 /* AppDelegate.h */,
+				EB53D3741CC4D36B00F2C341 /* AppDelegate.m */,
+				EB53D3761CC4D36B00F2C341 /* ViewController.h */,
+				EB53D3771CC4D36B00F2C341 /* ViewController.m */,
+				EB53D3791CC4D36B00F2C341 /* Main.storyboard */,
+				EB53D37C1CC4D36B00F2C341 /* Assets.xcassets */,
+				EB53D37E1CC4D36B00F2C341 /* LaunchScreen.storyboard */,
+				EB53D3811CC4D36B00F2C341 /* Info.plist */,
+				EB53D3701CC4D36B00F2C341 /* Supporting Files */,
+			);
+			path = TTOneWallet;
+			sourceTree = "<group>";
+		};
+		EB53D3701CC4D36B00F2C341 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB53D3711CC4D36B00F2C341 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB53D3891CC4D36B00F2C341 /* TTOneWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB53D38A1CC4D36B00F2C341 /* TTOneWalletTests.m */,
+				EB53D38C1CC4D36B00F2C341 /* Info.plist */,
+			);
+			path = TTOneWalletTests;
+			sourceTree = "<group>";
+		};
+		EB53D3941CC4D36B00F2C341 /* TTOneWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB53D3951CC4D36B00F2C341 /* TTOneWalletUITests.m */,
+				EB53D3971CC4D36B00F2C341 /* Info.plist */,
+			);
+			path = TTOneWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB53D36C1CC4D36B00F2C341 /* TTOneWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB53D39A1CC4D36B00F2C341 /* Build configuration list for PBXNativeTarget "TTOneWallet" */;
+			buildPhases = (
+				EB53D3691CC4D36B00F2C341 /* Sources */,
+				EB53D36A1CC4D36B00F2C341 /* Frameworks */,
+				EB53D36B1CC4D36B00F2C341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTOneWallet;
+			productName = TTOneWallet;
+			productReference = EB53D36D1CC4D36B00F2C341 /* TTOneWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB53D3851CC4D36B00F2C341 /* TTOneWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB53D39D1CC4D36B00F2C341 /* Build configuration list for PBXNativeTarget "TTOneWalletTests" */;
+			buildPhases = (
+				EB53D3821CC4D36B00F2C341 /* Sources */,
+				EB53D3831CC4D36B00F2C341 /* Frameworks */,
+				EB53D3841CC4D36B00F2C341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB53D3881CC4D36B00F2C341 /* PBXTargetDependency */,
+			);
+			name = TTOneWalletTests;
+			productName = TTOneWalletTests;
+			productReference = EB53D3861CC4D36B00F2C341 /* TTOneWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB53D3901CC4D36B00F2C341 /* TTOneWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB53D3A01CC4D36B00F2C341 /* Build configuration list for PBXNativeTarget "TTOneWalletUITests" */;
+			buildPhases = (
+				EB53D38D1CC4D36B00F2C341 /* Sources */,
+				EB53D38E1CC4D36B00F2C341 /* Frameworks */,
+				EB53D38F1CC4D36B00F2C341 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB53D3931CC4D36B00F2C341 /* PBXTargetDependency */,
+			);
+			name = TTOneWalletUITests;
+			productName = TTOneWalletUITests;
+			productReference = EB53D3911CC4D36B00F2C341 /* TTOneWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB53D3651CC4D36B00F2C341 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TT_code;
+				TargetAttributes = {
+					EB53D36C1CC4D36B00F2C341 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EB53D3851CC4D36B00F2C341 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB53D36C1CC4D36B00F2C341;
+					};
+					EB53D3901CC4D36B00F2C341 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB53D36C1CC4D36B00F2C341;
+					};
+				};
+			};
+			buildConfigurationList = EB53D3681CC4D36B00F2C341 /* Build configuration list for PBXProject "TTOneWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB53D3641CC4D36B00F2C341;
+			productRefGroup = EB53D36E1CC4D36B00F2C341 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB53D36C1CC4D36B00F2C341 /* TTOneWallet */,
+				EB53D3851CC4D36B00F2C341 /* TTOneWalletTests */,
+				EB53D3901CC4D36B00F2C341 /* TTOneWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB53D36B1CC4D36B00F2C341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB53D3801CC4D36B00F2C341 /* LaunchScreen.storyboard in Resources */,
+				EB53D37D1CC4D36B00F2C341 /* Assets.xcassets in Resources */,
+				EB53D37B1CC4D36B00F2C341 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB53D3841CC4D36B00F2C341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB53D38F1CC4D36B00F2C341 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB53D3691CC4D36B00F2C341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB53D3781CC4D36B00F2C341 /* ViewController.m in Sources */,
+				EB53D3751CC4D36B00F2C341 /* AppDelegate.m in Sources */,
+				EB53D3721CC4D36B00F2C341 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB53D3821CC4D36B00F2C341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB53D38B1CC4D36B00F2C341 /* TTOneWalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB53D38D1CC4D36B00F2C341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB53D3961CC4D36B00F2C341 /* TTOneWalletUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB53D3881CC4D36B00F2C341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB53D36C1CC4D36B00F2C341 /* TTOneWallet */;
+			targetProxy = EB53D3871CC4D36B00F2C341 /* PBXContainerItemProxy */;
+		};
+		EB53D3931CC4D36B00F2C341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB53D36C1CC4D36B00F2C341 /* TTOneWallet */;
+			targetProxy = EB53D3921CC4D36B00F2C341 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB53D3791CC4D36B00F2C341 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB53D37A1CC4D36B00F2C341 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB53D37E1CC4D36B00F2C341 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB53D37F1CC4D36B00F2C341 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB53D3981CC4D36B00F2C341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB53D3991CC4D36B00F2C341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB53D39B1CC4D36B00F2C341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTOneWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTOneWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB53D39C1CC4D36B00F2C341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTOneWallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTOneWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB53D39E1CC4D36B00F2C341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTOneWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTOneWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTOneWallet.app/TTOneWallet";
+			};
+			name = Debug;
+		};
+		EB53D39F1CC4D36B00F2C341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTOneWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTOneWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTOneWallet.app/TTOneWallet";
+			};
+			name = Release;
+		};
+		EB53D3A11CC4D36B00F2C341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTOneWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTOneWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTOneWallet;
+			};
+			name = Debug;
+		};
+		EB53D3A21CC4D36B00F2C341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTOneWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTOneWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTOneWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB53D3681CC4D36B00F2C341 /* Build configuration list for PBXProject "TTOneWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB53D3981CC4D36B00F2C341 /* Debug */,
+				EB53D3991CC4D36B00F2C341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB53D39A1CC4D36B00F2C341 /* Build configuration list for PBXNativeTarget "TTOneWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB53D39B1CC4D36B00F2C341 /* Debug */,
+				EB53D39C1CC4D36B00F2C341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB53D39D1CC4D36B00F2C341 /* Build configuration list for PBXNativeTarget "TTOneWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB53D39E1CC4D36B00F2C341 /* Debug */,
+				EB53D39F1CC4D36B00F2C341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB53D3A01CC4D36B00F2C341 /* Build configuration list for PBXNativeTarget "TTOneWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB53D3A11CC4D36B00F2C341 /* Debug */,
+				EB53D3A21CC4D36B00F2C341 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB53D3651CC4D36B00F2C341 /* Project object */;
+}
